@@ -2,7 +2,7 @@ Jenkinsfile
 pipeline {
     agent any
     stages{
-        stages 1 ('Environment') {
+        stages ('Environment') {
             steps {
             bat 'env' 
         }
