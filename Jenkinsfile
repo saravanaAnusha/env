@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage ('Environment') {
             steps {
-            bat echo 'env|sort' 
+             echo 'env|sort' 
         }
 
     }
