@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage ('Environment') {
             steps {
-             bat echo ' env | set '
+             echo ' env | set '
         }
 
     }
