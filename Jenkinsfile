@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage ('Environment') {
             steps {
-             bat 'env | sort' 
+             sh 'env | sort' 
         }
 
     }
