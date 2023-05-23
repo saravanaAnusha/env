@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage ('Environment') {
             steps {
-             echo ' env | set '
+             sh ' $NODE_NAME '
         }
 
     }
