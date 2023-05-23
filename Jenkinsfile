@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage ('Environment') {
             steps {
-             sh 'env | set' 
+             bat 'env | set' 
         }
 
     }
